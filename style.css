@@ -1,29 +1,72 @@
-.roboto-regular {
+body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-style: normal;
+	color: #3a0e0e;
+	font-size: 20px;
+	line-height: 3;
+	font-weight: 500;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-body {
-	min-height: 100vh;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	background-color: #c3e0e5;
+.header img {
+	width: 260px;
+	height: auto;
 }
 
+.block_right img {
+	float: right;
+	height: 200px;
+	width: auto;
+}
+
+.icon_email {
+	list-style-image: url(assets/img/icon/pngwing1.png);
+	height: 30px;
+}
+.icon_github {
+	list-style-image: url(assets/img/icon/pngwing3.png);
+	height: 30px;
+}
+.icon_telegram {
+	list-style-image: url(assets/img/icon/pngwing2.png);
+	height: 30px;
+}
+
+.block_right ul {
+	list-style-image: url(assets/img/icon/pngwing4.png);
+}
+
+.block_right h1 {
+	text-align: center;
+}
+.block_right p {
+	text-align: center;
+}
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
+	display: flex;
 }
 
-.header img {
-	width: 200px;
-	height: auto;
+.block_left {
+	width: 300px;
+	padding: 20px;
+	background-color: black;
+}
+
+.block_right {
+	flex-grow: 1;
+	width: 500px;
+	padding: 20px;
+	background-color: rgba(238, 241, 8, 0.2);
+}
+
+.block_left h2 {
+	float: right;
+	color: rgba(238, 241, 8, 0.8);
+}
+.coder {
+	float: left;
 }
