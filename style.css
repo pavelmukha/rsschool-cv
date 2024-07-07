@@ -1,0 +1,72 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #3a0e0e;
+	font-size: 20px;
+	line-height: 2.5;
+	font-weight: 500;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header img {
+	width: 260px;
+	height: auto;
+}
+
+.block_right img {
+	float: right;
+	height: 200px;
+	width: auto;
+}
+
+.icon_email {
+	list-style-image: url(assets/img/icon/pngwing1.png);
+	height: 30px;
+}
+.icon_github {
+	list-style-image: url(assets/img/icon/pngwing3.png);
+	height: 30px;
+}
+.icon_telegram {
+	list-style-image: url(assets/img/icon/pngwing2.png);
+	height: 30px;
+}
+
+.block_right ul {
+	list-style-image: url(assets/img/icon/pngwing4.png);
+}
+
+.block_right h1 {
+	text-align: center;
+}
+.block_right p {
+	text-align: center;
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.block_left {
+	width: 300px;
+	padding: 20px;
+	background-color: black;
+}
+
+.block_right {
+	flex-grow: 1;
+	width: 500px;
+	padding: 20px;
+	background-color: rgba(238, 241, 8, 0.2);
+}
+
+.block_left h2 {
+	float: right;
+	color: rgba(238, 241, 8, 0.8);
+}
+.coder {
+	float: left;
+}
